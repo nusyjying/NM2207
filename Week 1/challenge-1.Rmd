@@ -1,0 +1,43 @@
+---
+title: "Challenge-1"
+author: "jingying"
+date: "2023-08-14"
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+Hi I'm Jingying and I'm a year 2 student majoring in sociology + minoring in CNM and Japanese~
+
+I'm very new to coding and techy stuff so im sorry if im very slow...
+
+
+![](C:\Users\yeojy\Pictures\photo_2023-08-14_16-53-37.jpg)
+
+here is an image of my mental state when i was making this yay
+
+
+
+
+```{r, out.height= "270px",out.width= "480px",echo=FALSE,eval=TRUE,fig.cap="here's an attempt at inserting a random image haha...this is from an event dialogue from genshin impact"}
+knitr::include_graphics("C:/Users/yeojy/Pictures/tarutaruandmiyamiya.png")
+```
+
+
+
+## More about me
+
+### Hobbies
+
+I dabble in creative writing as a hobby, and I also play some mobile games in my spare time. I like going on walks as well!! I like to spend my leisure time like how I would if I was retired...
+
+### Likes and dislikes
+
+I like travelling and cold weather, and I dislike the local humid weather in SG...but I have no money to afford a holiday :,) I am also addicted to iced drinks!!

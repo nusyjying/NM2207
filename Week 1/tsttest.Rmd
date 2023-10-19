@@ -1,0 +1,9 @@
+---
+title: "nimama"
+author: "jingying"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+  html_document: default
+---
+hii tes testetstesttest
