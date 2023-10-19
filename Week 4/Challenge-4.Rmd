@@ -1,0 +1,259 @@
+---
+title: "Challenge-4"
+author: "Jing Ying"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<style>
+p.comment {
+background-color: #DBDBDB;
+padding: 10px;
+border: 1px solid black;
+margin-left: 25px;
+border-radius: 5px;
+font-style: italic;
+}
+
+</style>
+
+## Questions
+<br>
+
+Load the "CommQuest2023.csv" dataset using the `read_csv()` command and assign it to a variable named "comm_data." 
+
+```{r, eval=TRUE,echo=TRUE}
+# Enter code here
+
+library(tidyverse)
+
+read_csv("CommQuest2023_Larger.csv")
+
+comm_data <- read_csv("CommQuest2023_Larger.csv")
+
+```
+<br>
+
+
+#### Question-1: Communication Chronicles
+
+Using the select command, create a new dataframe containing only the "date," "channel," and "message" columns from the "comm_data" dataset.
+
+**Solution:**
+
+```{r, eval=TRUE,echo=TRUE}
+# Enter code here
+
+newframeeee <- select(comm_data, date,channel,message)
+
+newframeeee
+
+```
+<br>
+
+#### Question-2: Channel Selection
+
+Use the filter command to create a new dataframe that includes messages sent through the "Twitter" channel on August 2nd.
+
+**Solution:**
+
+```{r, eval=TRUE,echo=TRUE}
+# Enter code here
+
+secnewframe <- comm_data %>%
+  filter(date == "2023-08-02",channel == "Twitter") %>%
+  select(channel, date, message)
+
+secnewframe
+
+```
+<br>
+
+#### Question-3: Chronological Order
+
+Utilizing the arrange command, arrange the "comm_data" dataframe in ascending order based on the "date" column.
+
+**Solution:**
+
+```{r, eval=TRUE,echo=TRUE}
+# Enter code here
+
+arrange(comm_data, date)
+
+```
+<br>
+
+#### Question-4: Distinct Discovery
+
+Apply the distinct command to find the unique senders in the "comm_data" dataframe.
+
+**Solution:**
+
+```{r, eval=TRUE,echo=TRUE}
+# Enter code here
+
+comm_data %>%
+  distinct(sender)
+
+```
+<br>
+
+#### Question-5: Sender Stats
+
+Employ the count and group_by commands to generate a summary table that shows the count of messages sent by each sender in the "comm_data" dataframe.
+
+**Solution:**
+
+```{r, eval=TRUE,echo=TRUE}
+# Enter code here
+
+comm_data %>% count(sender)
+
+
+```
+<br>
+
+#### Question-6: Channel Chatter Insights
+
+Using the group_by and count commands, create a summary table that displays the count of messages sent through each communication channel in the "comm_data" dataframe.
+
+**Solution:**
+
+```{r, eval=TRUE,echo=TRUE}
+# Enter code here
+
+grouped_channel <- comm_data %>% group_by(channel)
+
+count(grouped_channel)
+
+```
+<br>
+
+#### Question-7: Positive Pioneers
+
+Utilize the filter, select, and arrange commands to identify the top three senders with the highest average positive sentiment scores. Display their usernames and corresponding sentiment averages.
+
+**Solution:**
+
+```{r, eval=TRUE,echo=TRUE}
+# Enter code here
+
+comm_data %>%
+  select(sender,sentiment)%>%
+  group_by(sender)%>%
+  summarise(mean_senti = mean(sentiment))%>%
+  arrange(desc(mean_senti)) %>%
+  slice(1:3)
+
+```
+
+<br>
+
+#### Question-8: Message Mood Over Time
+
+With the group_by, summarise, and arrange commands, calculate the average sentiment score for each day in the "comm_data" dataframe.
+
+**Solution:**
+
+```{r, eval=TRUE,echo=TRUE}
+# Enter code here
+
+comm_data %>%
+  select(date,sentiment) %>%
+  group_by(date)%>%
+  summarise(mean_senti = mean(sentiment))
+
+```
+<br>
+
+#### Question-9: Selective Sentiments
+
+Use the filter and select commands to extract messages with a negative sentiment score (less than 0) and create a new dataframe.
+
+**Solution:**
+
+```{r, eval=TRUE,echo=TRUE}
+# Enter code here
+
+negative_scorers <- comm_data %>%
+  select(date,channel,sender,sentiment,message) %>%
+  filter(sentiment <=0)
+
+negative_scorers
+
+```
+<br>
+
+#### Question-10: Enhancing Engagement
+
+Apply the mutate command to add a new column to the "comm_data" dataframe, representing a sentiment label: "Positive," "Neutral," or "Negative," based on the sentiment score.
+
+**Solution:**
+
+```{r, eval=TRUE,echo=TRUE}
+# Enter code here
+
+comm_data %>% 
+  mutate(sentiment_label = case_when(
+    sentiment > 0 ~ "Positive",
+    sentiment == 0 ~ "Neutral",
+    sentiment < 0 ~ "Negative",
+    TRUE ~ "Unknown"))
+
+```
+<br>
+
+#### Question-11: Message Impact
+
+Create a new dataframe using the mutate and arrange commands that calculates the product of the sentiment score and the length of each message. Arrange the results in descending order.
+
+**Solution:**
+
+```{r, eval=TRUE,echo=TRUE}
+# Enter code here
+
+sentilength <- comm_data %>%
+  mutate(yippee=sentiment*nchar(message)) %>%
+  arrange(comm_data,desc(yippee))
+
+sentilength
+
+```
+<br>
+
+#### Question-12: Daily Message Challenge
+
+Use the group_by, summarise, and arrange commands to find the day with the highest total number of characters sent across all messages in the "comm_data" dataframe.
+
+**Solution:**
+
+```{r, eval=TRUE,echo=TRUE}
+# Enter code here
+
+comm_data %>%
+  mutate(msglength = nchar(message))%>%
+  group_by(date)%>%
+  summarise(totalmsglength = sum(msglength))%>%
+  arrange(desc(totalmsglength))%>%
+  slice(1)
+
+```
+day with highest total number is August 10, 2023.
+
+<br>
+
+#### Question-13: Untidy data
+
+Can you list at least two reasons why the dataset illustrated in slide 10 is non-tidy? How can it be made Tidy?
+
+**Solution:**
+
+It is non-tidy as the column subject contains multiple variables within it under a single column. For example, the variable "Employment status" under the "Subject" column is further split into more sub-categories. Hence, the variables under "Subject" appear to be arranged in an ad hoc way that makes it difficult to immediately discern at first glance. It can be made tidy by splitting the "Subject" column into more columns for every variable such as "Employment Status" and "Has children".
+
+Furthermore, another reason why it is non-tidy is because the percent column does not only display percentages. The whole number from Estimate is included under the Percent column. This has likely interfered with the calculations within the percent margin of error column, hence yielding (X). This results in possible added complications for us in the future if we intend to use any calculations involving strict percentages as the integers (total count for relevant sub-categories) will interfere with commands we execute. We can make it tidy by replacing the integers in the Percentage with 100%.
