@@ -1,0 +1,32 @@
+---
+title: "Week 9 Data Story Submission"
+author: "jingying"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Questions
+
+### What is the topic that you have finalized? (Answer in 1 or 2 sentences)
+The topic I have finalised on is on Starbucks in California, US, and its correlation to race and background of inhabitants in specific cities within its branding. 
+
+### What are the data sources that you have curated so far? (Answer 1 or 2 sentences).
+The data source I have obtained is for free, and originates from the following link: https://data.world/alice-c/starbucks 
+
+The data set contains information on the number of Starbucks in each city, combined with census data from ca.gov.
+
+```{r,eval=TRUE,echo=TRUE}
+# Data set
+library(tidyverse)
+Starbucks_Cali <- read.csv("Starbucks in California - City Stats.csv")
+
+# First 10 rows of the data set
+head(Starbucks_Cali,10)
+
+```

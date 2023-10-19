@@ -1,0 +1,94 @@
+---
+pdf_document: default
+author: "Jing Ying"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+  html_document: default
+title: "Week-8: Code-along and Challenge"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Week 8 Code Screenshots
+<br>
+
+## I.  
+<br>
+
+```{r, eval=TRUE,echo=TRUE}
+# Screenshot of app
+
+knitr::include_graphics("C:/Users/yeojy/Pictures/Screenshots/r-app-editedcode-ver-9.png")
+
+```
+
+
+```{r, eval=TRUE,echo=TRUE}
+# Screenshot of app
+
+knitr::include_graphics("C:/Users/yeojy/Pictures/Screenshots/r-app-editedcode-ver-0.png")
+
+```
+
+
+```{r, eval=TRUE,echo=TRUE}
+# Screenshot of results of edited code
+
+knitr::include_graphics("C:/Users/yeojy/Pictures/Screenshots/r-app-editedcode-ver.png")
+
+```
+
+```{r, eval=TRUE,echo=TRUE}
+# Screenshot of different headers
+
+knitr::include_graphics("C:/Users/yeojy/Pictures/Screenshots/r-app-editedcode-ver-1.png")
+
+```
+
+###. Okay I dont know why, but my R Studio image will not pop up. However, there is a box indicative that an image should be there, so is that okay?
+
+```{r, eval=TRUE,echo=TRUE}
+# Image in the main panel
+
+knitr::include_graphics("C:/Users/yeojy/Pictures/Screenshots/r-app-editedcode-ver-3.png")
+
+```
+
+```{r, eval=TRUE,echo=TRUE}
+# Image in the side panel
+
+knitr::include_graphics("C:/Users/yeojy/Pictures/Screenshots/r-app-editedcode-ver-2.png")
+
+```
+
+## II. Challenge
+
+### I ran example 3 and made the following changes:
+#### 1. I changed the data sets to iris and airquality.
+#### 2. I added the feature of plotting graphs based on the variables within the data set, with the user being able to pick which variables they want to plot against each other in the form of a scatter plot.
+#### 3. I also added a feature where a unique image for each dataset will be displayed if you pick a particular one; the iris dataset will show an image of an iris, while the airquality will yield a picture of a car's smoking exhaust pipe.
+
+Here are the screenshots!
+
+```{r, eval=TRUE,echo=TRUE}
+
+# This is an example of iris data set.
+
+knitr::include_graphics("C:/Users/yeojy/Pictures/Screenshots/r-app-iris-upperhalf.png")
+
+knitr::include_graphics("C:/Users/yeojy/Pictures/Screenshots/r-app-iris-lowerhalf.png")
+
+```
+
+```{r, eval=TRUE,echo=TRUE}
+
+# This is an example of airquality data set.
+
+knitr::include_graphics("C:/Users/yeojy/Pictures/Screenshots/r-app-air-upperhalf.png")
+
+knitr::include_graphics("C:/Users/yeojy/Pictures/Screenshots/r-app-air-lowerhalf.png")
+
+```
