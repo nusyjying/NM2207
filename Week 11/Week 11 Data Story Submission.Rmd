@@ -1,0 +1,79 @@
+---
+title: "Week 10 Data Story Submission"
+author: "jingying"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Questions
+
+## Week 9
+
+### What is the topic that you have finalized? (Answer in 1 or 2 sentences)
+The topic I have finalised on is on Starbucks in California, US, and its correlation to race and background of inhabitants in specific cities within its branding. 
+
+### What are the data sources that you have curated so far? (Answer 1 or 2 sentences).
+The data source I have obtained is for free, and originates from the following link: https://data.world/alice-c/starbucks 
+
+The data set contains information on the number of Starbucks in each city, combined with census data from ca.gov. From the same link, I also selected the dataset for country so that there is an option to compare the US as a whole against other countries.
+
+(To avoid cluttering my folders with needless copies of the datasets, I will omit the inclusion of the data set glimpse itself in the diary entries before the final diary entry pdf submission.)
+
+## Week 10
+
+### What is the question that you are going to answer? 
+Does Starbucks everyday association and correlation to (the white) race and socioeconomic status offer any insightful reflections on consumer culture, social stratification, and branding?
+
+### Why is this an important question? 
+
+With the implications of the common myth touted by Australian millionaire Tim Gurner that "When I was trying to buy my first home I wasn't buying smashed avocados for 19 bucks and four coffees at $4 each", his claims reflect the identification of Starbucks and its drinks to be commonly associated with affluence in its 'pricey' coffee to be significant to one's savings. According to public perception, Starbucks is a brand commonly associated with white Americans and westerners with leanings towards middle to upper class. Furthermore, as implied by Geraldine Rosa Henderson and Kathy Zhang in The Oxford Handbook of Consumption (2019), Starbucks is a white-aligned brand as a cited case of two men of colour being denied service due to implied ethnoracial prejudice, which also provides some reflections of the social racial dynamics, interactions, and inequality at that time in the US. 
+
+
+### Which rows and columns of the dataset will be used to answer this question? 
+
+I will use the columns:
+ID,	County,	Number of Starbucks,	Starbucks per million inhabitants, Median Age,	Median Household Income	2010, Population	Percentage of white population
+
+As the last two rows of the data set are NA values, as of the writing of this rmd doc, I intend to take into account the rows of 1-431 and work from there. 
+
+## Week 11
+
+### List the visualizations that you are going to use in your project (Answer: What are the variables that you are going to plot? How will it answer your larger question?)
+
+yeah
+
+### How do you plan to make it interactive? (Answer: features of ggplot2/shiny/markdown do you plan to use to make the story interactive)
+
+I will repurpose the Shiny app I fiddled with in Week 8 to allow the user to plot their own graphs based on the variables of my data sets, so that they can also explore the different plots with me :)
+
+### What concepts incorporated in your project were taught in the course and which ones were self-learnt? (Answer: Create a table with topics in one column and Weeks in the other to indicate which concept taught in which week is being used. Leave the entry of the Week column empty for self-learnt concepts)
+
+```{r,eval=TRUE,echo=FALSE}
+library(knitr)
+
+# create a data frame with some text
+df <- data.frame(
+ Topics = c("basics of Shiny app", "outputting different images and choosing different variables from a curated list"),
+ Weeks = c("8", "Self-searched")
+)
+
+# convert the data frame to a table
+table <- kable(df)
+
+# print the table
+print(table)
+```
+
+\newpage 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**References** 
+
+Henderson, G. R., & Zhang, K. (2019). _Race and consumer inequality_ (p. 397). Oxford, UK: Oxford
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University Press.
