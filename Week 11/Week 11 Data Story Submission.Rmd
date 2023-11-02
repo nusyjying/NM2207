@@ -21,14 +21,14 @@ The topic I have finalised on is on Starbucks in California, US, and its correla
 ### What are the data sources that you have curated so far? (Answer 1 or 2 sentences).
 The data source I have obtained is for free, and originates from the following link: https://data.world/alice-c/starbucks 
 
-The data set contains information on the number of Starbucks in each city, combined with census data from ca.gov. From the same link, I also selected the dataset for country so that there is an option to compare the US as a whole against other countries.
+The data set contains information on the number of Starbucks in each city, combined with census data from ca.gov. From the same link, I also selected the dataset for country so that there is an option to check out the global distribution of Starbucks.
 
 (To avoid cluttering my folders with needless copies of the datasets, I will omit the inclusion of the data set glimpse itself in the diary entries before the final diary entry pdf submission.)
 
 ## Week 10
 
 ### What is the question that you are going to answer? 
-Does Starbucks everyday association and correlation to (the white) race and socioeconomic status offer any insightful reflections on consumer culture, social stratification, and branding?
+Does Starbucks everyday association and correlation to (the white) race and socioeconomic status offer any insightful reflections on consumer culture, social stratification, and branding? Otherwise, is it all just a matter of stereotyping and coincidence?
 
 ### Why is this an important question? 
 
@@ -46,7 +46,7 @@ As the last two rows of the data set are NA values, as of the writing of this rm
 
 ### List the visualizations that you are going to use in your project (Answer: What are the variables that you are going to plot? How will it answer your larger question?)
 
-yeah
+I'm personally looking at Percentage of white population, Median household income, Median age, Number of Starbucks, Starbucks per million inhabitants, and Starbucks per 10 sq mile. In particular, I want to pay special attention to Starbucks per million inhabitants as a way for me to relate the differing populations of the different geographical locations to give me the most apt proportion of Starbucks distribution.
 
 ### How do you plan to make it interactive? (Answer: features of ggplot2/shiny/markdown do you plan to use to make the story interactive)
 
@@ -54,20 +54,20 @@ I will repurpose the Shiny app I fiddled with in Week 8 to allow the user to plo
 
 ### What concepts incorporated in your project were taught in the course and which ones were self-learnt? (Answer: Create a table with topics in one column and Weeks in the other to indicate which concept taught in which week is being used. Leave the entry of the Week column empty for self-learnt concepts)
 
-```{r,eval=TRUE,echo=FALSE}
+```{r,echo=FALSE}
 library(knitr)
 
 # create a data frame with some text
 df <- data.frame(
- Topics = c("basics of Shiny app", "outputting different images and choosing different variables from a curated list"),
- Weeks = c("8", "Self-searched")
+  Topics = c("ggplot","basics of Shiny app", "Quarto website set-up","conditional outputting different images and choosing different variables from a curated list on Shiny"),
+  Weeks = c("2,7","8", "9 (I'm only listing this as 9 because the Canvas content for this is not under any specific week, but was accessed during week 9)"," ")
 )
 
 # convert the data frame to a table
-table <- kable(df)
+table <- knitr::kable(df)
 
 # print the table
-print(table)
+(table)
 ```
 
 \newpage 
