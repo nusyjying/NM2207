@@ -51,6 +51,8 @@ I'm personally looking at Percentage of white population, Median household incom
 ### How do you plan to make it interactive? (Answer: features of ggplot2/shiny/markdown do you plan to use to make the story interactive)
 
 I will repurpose the Shiny app I fiddled with in Week 8 to allow the user to plot their own graphs based on the variables of my data sets, so that they can also explore the different plots with me :)
+ 
+![Here is a screenshot of my webpage where the interactivity will be.]("C:/Users/yeojy/Documents/Y2S1/NM2207/Screenshot 2023-11-03 162358.png")
 
 ### What concepts incorporated in your project were taught in the course and which ones were self-learnt? (Answer: Create a table with topics in one column and Weeks in the other to indicate which concept taught in which week is being used. Leave the entry of the Week column empty for self-learnt concepts)
 
