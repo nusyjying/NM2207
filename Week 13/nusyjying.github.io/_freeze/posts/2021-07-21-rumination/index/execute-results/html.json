@@ -1,0 +1,14 @@
+{
+  "hash": "77f2c5f6255f24258e31789cea7b7967",
+  "result": {
+    "markdown": "---\ntitle: \"rumination\"\ndescription: \"Written for my junior college's 2020 publication, 'melancholia'.\"\nauthor:\n  - name: Yeo Jing Ying\n    url: https://nusyjying.github.io/\ndate: 04-05-2021\ncategories: [Poetry] \nimage: rumi.jpg\ndraft: false \n---\n\n::: {.cell}\n::: {.cell-output-display}\n![](rumi.jpg){width=70%}\n:::\n:::\n\n\n## rumination\n\ni’m chasing the backs\n\nof our younger selves\n\nto lie to myself\n\nthat we will never \n\ngrow old and leave\n\neach other \n\n<br>\n\ni’m chasing the shadows \n\nof our great past \n\nso that i don’t \n\nhave to blind myself \n\nwith the light of \n\nthe present \n\n<br>\n\ni’m chasing the last vestiges \n\nof our dying sunset \n\nso i could pretend \n\nthat i don’t have \n\nto see the next sun \n\nrise again\n\n<br>\n\nas much as i know \n\nthat the new world \n\nwill give me something\n\nnewer, i can never \n\nlet go of all \n\nthat the past has \n\ngiven me.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

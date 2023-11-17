@@ -1,0 +1,14 @@
+{
+  "hash": "a482036aed8bb10a194d4f34e2c5c8ce",
+  "result": {
+    "markdown": "---\ntitle: \"2020 Escapril Day 2 - Growth/Decay\"\ndescription: \"Written for my junior college's creative writing club's participation in Escapril 2020.\"\nauthor:\n  - name: Yeo Jing Ying\n    url: https://nusyjying.github.io/\ndate: 04-08-2020\ncategories: [Prose] \nimage: pigeon.jpg\ndraft: false \n---\n\n::: {.cell}\n::: {.cell-output-display}\n![](pigeon.jpg){width=70%}\n:::\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n![](growthdecay.png){width=70%}\n:::\n:::",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
