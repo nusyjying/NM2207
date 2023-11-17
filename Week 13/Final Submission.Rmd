@@ -1,0 +1,146 @@
+---
+title: "Final Submission"
+author: "jingying"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Questions
+
+## Week 9
+
+### What is the topic that you have finalized? (Answer in 1 or 2 sentences)
+The topic I have finalised on is on Starbucks in California, US, and its correlation to race and background of inhabitants in specific cities within its branding. 
+
+### What are the data sources that you have curated so far? (Answer 1 or 2 sentences).
+The data source I have obtained is for free, and originates from the following link: https://data.world/alice-c/starbucks 
+
+The data set contains information on the number of Starbucks in each city, combined with census data from ca.gov. From the same link, I also selected the dataset for country so that there is an option to check out the global distribution of Starbucks.
+
+```{r,eval=TRUE,echo=TRUE}
+# Data set
+library(tidyverse)
+Starbucks_Cali <- read.csv("Starbucks in California - City Stats.csv")
+
+# First 10 rows of the data set
+head(Starbucks_Cali,10)
+
+```
+
+## Week 10
+
+### What is the question that you are going to answer? 
+Does Starbucks everyday association and correlation to (the white) race and socioeconomic status offer any insightful reflections on consumer culture, social stratification, and branding? Otherwise, is it all just a matter of stereotyping and coincidence?
+
+### Why is this an important question? 
+
+With the implications of the common myth touted by Australian millionaire Tim Gurner that "When I was trying to buy my first home I wasn't buying smashed avocados for 19 bucks and four coffees at $4 each", his claims reflect the identification of Starbucks and its drinks to be commonly associated with affluence in its 'pricey' coffee to be significant to one's savings. According to public perception, Starbucks is a brand commonly associated with white Americans and westerners with leanings towards middle to upper class. Furthermore, as implied by Geraldine Rosa Henderson and Kathy Zhang in The Oxford Handbook of Consumption (2019), Starbucks is a white-aligned brand as a cited case of two men of colour being denied service due to implied ethnoracial prejudice, which also provides some reflections of the social racial dynamics, interactions, and inequality at that time in the US. 
+
+
+### Which rows and columns of the dataset will be used to answer this question? 
+
+I will use the columns:
+ID,	County,	Number of Starbucks,	Starbucks per million inhabitants, Median Age,	Median Household Income	2010, Population	Percentage of white population
+
+As the last two rows of the data set are NA values, as of the writing of this rmd doc, I intend to take into account the rows of 1-431 and work from there. 
+
+## Week 11
+
+### List the visualizations that you are going to use in your project (Answer: What are the variables that you are going to plot? How will it answer your larger question?)
+
+I'm personally looking at Percentage of white population, Median household income, Median age, Number of Starbucks, Starbucks per million inhabitants, and Starbucks per 10 sq mile. In particular, I want to pay special attention to Starbucks per million inhabitants as a way for me to relate the differing populations of the different geographical locations to give me the most apt proportion of Starbucks distribution.
+
+### How do you plan to make it interactive? (Answer: features of ggplot2/shiny/markdown do you plan to use to make the story interactive)
+
+I will repurpose the Shiny app I fiddled with in Week 8 to allow the user to plot their own graphs based on the variables of my data sets, so that they can also explore the different plots with me :)
+ 
+![Here is a screenshot of my webpage where the interactivity will be.]("C:/Users/yeojy/Documents/Y2S1/NM2207/Screenshot 2023-11-03 162358.png")
+
+
+
+### What concepts incorporated in your project were taught in the course and which ones were self-learnt? (Answer: Create a table with topics in one column and Weeks in the other to indicate which concept taught in which week is being used. Leave the entry of the Week column empty for self-learnt concepts)
+
+```{r,echo=FALSE}
+library(knitr)
+
+# create a data frame with some text
+df <- data.frame(
+  Topics = c("ggplot","basics of Shiny app", "Quarto website set-up","Integration of Shiny dashboard with Quarto", "conditional outputting different images and choosing different variables from a curated list on Shiny", "Adding a blog feature on my website to showcase my writing in 'posts'"),
+  Weeks = c("2,7","8", "9 (I'm only listing this as 9 because the Canvas content for this is not under any specific week, but was accessed during week 9)","9 (I'm only listing this as 9 because the Canvas content for this is not under any specific week, but was accessed during week 9)", " ", " ")
+)
+
+# convert the data frame to a table
+table <- knitr::kable(df)
+
+# print the table
+(table)
+```
+
+## Week 12
+
+### Progress?
+
+I added a blog page section to my website! I felt that my website was quite lacking in content and I could have added more to it. My website was barely scratching the bare minimum, which I felt was a problem and an area of improvement. 
+
+Hence, I self-learned with the wonderful help of Google to add a blog to my existing Quarto website. In the website, I added four entries of creatvie writing I did during my junior college days for my school's creative writing club! That way, more information about me can be included on my website along with the data story project to better personalise this website.
+
+link referred: https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/ 
+
+# Week 13
+
+## What is the theme of your data story?
+
+The theme of my data story is customer profiling and stereotypes in branding and target audience orientation. 
+
+## Why is it important to address this question?
+
+Studying stereotypes related to a company is crucial for branding and business marketing because it provides insights into how the company is perceived by its target audience, future potential customers and other stakeholders, and the wider market. By understanding these stereotypes, businesses can shape their brand image to meet customer expectations or identify possible disadvantages or potential controversies and problems detrimental to their image or interests. Studying this would hence allow businesses to address and mitigate negative stereotypes, fostering a positive brand image. 
+
+## Why do you think the data sources that you have curated can help you answer the question?
+
+I selected data sources based on Starbucks, a prominent multinational chain of coffeehouses 
+
+My hypothesis before exploring the data was that places with greater proportion of white, upper-middle class, and higher numbers of young-to-middle-aged populations will be more likely to have more Starbucks branches open in that vicinity to cater to such profiles that are stereotyped to be their most common customers. If such assumptions are correct, I would expect to see a positive correlation between the number and distribution of Starbucks branches and the variables of population that I have listed. This is due to two main reasons: 
+
+* Starbucks is commonly associated with American millennial and younger Generation X people as the stereotyped urban hipster overpriced coffee place. 
+
+* It is my personal assumption that Starbucks is also associated with white customers, with this assumption born out of the numerous racial controversies Starbucks had undergone against people of colour in recent years. 
+
+Hence, by exploring the data sets and comparing the demographics of cities in California, a notable American state, as well as noting the difference in Starbucks branch frequencies between different countries, these data sources will help me examine any possible trends (or lack thereof!) that can allow me to understand more about the correlation and relationship between Starbucks distribution and the profiles of populations in their vicinities. 
+
+## What are the insights from the data and how are they depicted in plots?
+
+From my own exploration of this plot visualisation app, I personally observe that there doesn’t seem to be a strong correlation between the proportion of Starbucks distribution and most of my variables of concern. The scatter plots do seem quite sparsely separated in the generated graphs, and a generally weak positive correlation was observed in some of the variables of interest.
+
+In the graph for age versus Starbucks distribution, the points cluster broadly and mostly between the early 20s to early 50s. At first glance, it is telling of the general demographic of Starbucks to tend towards those of the millennial generation and Generation X (with points bearing higher number of Starbucks per million inhabitants occurring between the mid-20s to late 40s). This also aligns with general ceonceptions and stereotypes of Starbucks as a millennial luxury or indulgence.
+
+Interestingly, the plotted graph between “median household income” and “Starbucks per million inhabitants” shows no correlation unlike what I expected given the common perception that Starbucks is considered an ‘everyday luxury’ or ‘treat’. Hence, I conclude that the real issue is definitely more nuanced than simple “higher SES = more Starbucks patronage”.
+
+Within the international, a scatter plot was also used, this time with Country as the y-variable and 
+
+Ultimately, the weak correlation tells me that the association between the frequency of Starbucks branches and outlets in a particular geographical location and factors such as population whiteness, age, and SES is weak. However, the observable positive correlation in the plots between “percentage of white population and Starbucks per million inhabitants” is apparent, which at least suggests that the stereotype that Starbucks leans towards a customer profile and target of satisfaction that may be prominently White does have some effect in the patronage demographics of Starbucks as well as meeting stereotyped assumptions on the target audience of Starbucks. Furthermore, my first concern was on Starbucks as a ‘white-biased’ brand, which is helpful in identifying at least some weak relationship between Starbucks, their brand and identity, and the racial profile of their customers. However, it is not a strong determining factor in deciding the frequency of distribution of Starbucks branches in a US Californa location.
+
+The exact screenshotted graphs of specific mapped variables can be found on my webpage with a similar write-up as this answer for my website visitors to view.
+
+
+## How did you implement this entire project? Were there any new concepts that you learnt to implement some aspects of it?
+
+I planned to integrate my data project with the interactive segment of my website project, hence I had to customise my Shiny app (which its basics were covered in class) to adopt conditional displays and changes in options for users to explore the two data sets I have included with me. This customisation in how changes in the interface and available variables of interest is a new concept I had to learn and figure out to keep the interaction element in my Shiny app. 
+
+\newpage 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**References** 
+
+Henderson, G. R., & Zhang, K. (2019). _Race and consumer inequality_ (p. 397). Oxford, UK: Oxford
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University Press.
+
+Quain, S. (2019). What Is the Target Market for Coffee? Small Business - Chron.com.  Retrieved November
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;17, 2023, from https://smallbusiness.chron.com/target-market-coffee-71600.html
