@@ -104,11 +104,11 @@ Studying stereotypes related to a company is crucial for branding and business m
 
 ## Why do you think the data sources that you have curated can help you answer the question?
 
-I selected data sources based on Starbucks, a prominent multinational chain of coffeehouses 
+I selected data sources based on Starbucks, a prominent multinational chain of coffeehouses. 
 
 My hypothesis before exploring the data was that places with greater proportion of white, upper-middle class, and higher numbers of young-to-middle-aged populations will be more likely to have more Starbucks branches open in that vicinity to cater to such profiles that are stereotyped to be their most common customers. If such assumptions are correct, I would expect to see a positive correlation between the number and distribution of Starbucks branches and the variables of population that I have listed. This is due to two main reasons: 
 
-* Starbucks is commonly associated with American millennial and younger Generation X people as the stereotyped urban hipster overpriced coffee place. 
+* Common expectations and recognition of Starbucks' target audience assume them to be those of relatively unrestrained spending habits, modern urbanised seekers of convenience, and those who tend to be American millennial and younger Generation X people as the stereotyped urban hipster overpriced coffee place (Quain, 2019).
 
 * It is my personal assumption that Starbucks is also associated with white customers, with this assumption born out of the numerous racial controversies Starbucks had undergone against people of colour in recent years. 
 
