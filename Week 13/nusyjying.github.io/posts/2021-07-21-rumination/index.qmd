@@ -1,0 +1,75 @@
+---
+title: "rumination"
+description: "Written for my junior college's 2020 publication, 'melancholia'."
+author:
+  - name: Yeo Jing Ying
+    url: https://nusyjying.github.io/
+date: 04-05-2021
+categories: [Poetry] 
+image: rumi.jpg
+draft: false 
+---
+
+```{r, eval=TRUE,echo=FALSE,out.width="70%"}
+
+knitr::include_graphics("C:/Users/yeojy/Documents/Y2S1/NM2207/nusyjying.github.io/posts/2021-07-21-rumination/rumi.jpg")
+
+```
+
+## rumination
+
+i’m chasing the backs
+
+of our younger selves
+
+to lie to myself
+
+that we will never 
+
+grow old and leave
+
+each other 
+
+<br>
+
+i’m chasing the shadows 
+
+of our great past 
+
+so that i don’t 
+
+have to blind myself 
+
+with the light of 
+
+the present 
+
+<br>
+
+i’m chasing the last vestiges 
+
+of our dying sunset 
+
+so i could pretend 
+
+that i don’t have 
+
+to see the next sun 
+
+rise again
+
+<br>
+
+as much as i know 
+
+that the new world 
+
+will give me something
+
+newer, i can never 
+
+let go of all 
+
+that the past has 
+
+given me.

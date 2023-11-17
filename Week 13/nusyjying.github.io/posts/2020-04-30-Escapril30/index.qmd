@@ -1,0 +1,51 @@
+---
+title: "2020 Escapril Day 30 - Dusk"
+description: "Written for my junior college's creative writing club's participation in Escapril 2020."
+author:
+  - name: Yeo Jing Ying
+    url: https://nusyjying.github.io/
+date: 04-30-2020
+categories: [Prose] 
+image: dusk.png
+draft: false 
+---
+
+```{r, eval=TRUE,echo=FALSE,out.width="70%"}
+
+knitr::include_graphics("C:/Users/yeojy/Documents/Y2S1/NM2207/nusyjying.github.io/posts/2020-04-30-Escapril30/dusk.png")
+
+```
+
+## ESCAPRIL DAY 30 - Dusk
+
+We were both breathless after running through the village the whole day. Our skin, kissed by rays of afternoon sunlight, took on hues of rosy amber as we sprinted through thick bushes of dandelions and wild grass on the open dirt pathway. This was our hidden haven, our secret rendezvous point. The other villagers shunned the surrounding areas, never daring to leave the confinement of their dingy little cottages as the sun made its slowed descent into its home in the mountains. I was scared at first, too, but with the little rose charm you had made me for my birthday last year, I had never felt safer. 
+
+“Wait up!” I managed to squeeze out a wheeze as I followed, heaving behind you as you nimbly scaled the cobblestone walls. You only responded with a hearty giggle before leaping off into the enclosed land. 
+
+“Throw the basket over, I’ll catch it!” Your voice was ever so sprightly as you chirped from the other side of the wall. 
+
+The basket of wildflowers quivered in my hands, as if aware of its fate. A foolish grin blooms on my lips as I raise the basket high over my head and flung it over the stone. A loud rustling of straw against steady palms signalled to me to begin my climb. Logically, we could have gone the usual way through the big gateway, but today was different. 
+
+My feet landed solidly on cracked soil. Adrenaline pumping in our veins, we continued our chase, laughing energetically against the stark silence of the cemetery. As we passed a gravestone, we would set a flower stalk on the warmed stone before bounding off to the next. This gifting dance reached its end when we finally stopped in front of the great willow tree. With only a few flowers left in the basket, you tossed it carelessly by the tree’s roots along with your battered backpack before plopping down beside it. Following your example, I took a seat as well. You were strangely quiet now, playing with a bluebell stalk with alabaster fingers. I swiped the backpack and unpacked the bottles and humble sandwiches. The juice bottles were different today, as you had helpfully hinted to me with the uncorked bottle of vodka on the counter before we set off. We were barely legal, but this adult flavour would so poignantly suit this moment.
+
+You saw it as another one of our regular sunset getaways, but I knew that this was a different outing. You saw it as another, and I saw it as our last.
+
+The sky showed the first signs of the sunset as the blue began to meld into a lovely orange. High above our heads, the sun leisurely reclined against pillows of clouds, dyeing the regular white with hues of warm gold. The russet-gold sky bleeding over the cobblestone walls looked as though it was setting the cemetery ablaze with its glow. With the stray darkened birds that flew in the backlight of the sun, the scenery was dazzling as in its last goodbye to me. 
+
+“Are you okay? You look so gloomy. Come, drink.” A juice bottle was haphazardly shoved into my hands, snapping me out of my stupor. I regained my focus, my eyes centred on your warm smile. 
+
+The radiancy of your smile sparked a reminder in my head and I quickly fumbled with my patched pockets to fish out a red flower hairpin. This flower was your namesake, a beautiful blooming rose. The crystal flower pin had taken up the most of my saved school lunch money, but when I saw it in that vendor’s stall, I knew that I had to see it in your flaxen hair. Fighting with the wind that was toying with your hair, I fastened the pin into your hair, fixing your bangs so that they no longer obscured your bright eyes. 
+
+
+You commented nothing on my wistful smile and only focused on uncapping your own bottle.
+This was our precious time, and this golden orange sky our trademark landscape. I refused to let my sombre goodbye sour the last memory I will have of you. However, whether I had told you or not, you would have known in the morning. You would have known regardless. Instead, I religiously burned your visage into my eyes so that I would be able to call upon it whenever I wished… after I leave.
+
+“Come, let’s not be so gloomy now, this is our golden hour! Here, raise your bottle. To our never-ending dusk, my dear, and many more that will follow it!” Raising your drink high above your heart, you shout, startling the sparrows out of the leafy canopy above us.
+
+_“...To our dusk, my Rose.”_ I murmured, before taking a giant swig from the drink. The bittersweetness, carrying the trademark burn of an adult flavour, made tears brim at the corner of my eyes. I let the pearly droplet roll down the curve of my cheek, and felt it soak into the fabric of my cotton pants. 
+
+_I hoped that you would miss me as much as I missed you._
+
+_Goodbye, my loveliest, dearest Rose._
+
+_Goodbye._

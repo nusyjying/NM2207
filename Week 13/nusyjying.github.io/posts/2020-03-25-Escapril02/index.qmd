@@ -1,0 +1,23 @@
+---
+title: "2020 Escapril Day 2 - Growth/Decay"
+description: "Written for my junior college's creative writing club's participation in Escapril 2020."
+author:
+  - name: Yeo Jing Ying
+    url: https://nusyjying.github.io/
+date: 04-08-2020
+categories: [Prose] 
+image: pigeon.jpg
+draft: false 
+---
+
+```{r, eval=TRUE,echo=FALSE,out.width="70%"}
+
+knitr::include_graphics("C:/Users/yeojy/Documents/Y2S1/NM2207/nusyjying.github.io/posts/2020-03-25-Escapril02/pigeon.jpg")
+
+```
+
+```{r, eval=TRUE,echo=FALSE,out.width="70%"}
+
+knitr::include_graphics("C:/Users/yeojy/Documents/Y2S1/NM2207/nusyjying.github.io/posts/2020-03-25-Escapril02/growthdecay.png")
+
+```

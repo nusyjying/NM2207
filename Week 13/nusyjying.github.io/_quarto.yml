@@ -1,0 +1,27 @@
+project:
+ type: website
+ output-dir: docs
+
+website:
+ title: "⋆｡°✩ JY's NM2207 Website ⋆｡°✩"
+ navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: posts.qmd
+        text: Writing
+      - href: coursecontent.qmd
+        text: NM2207 Weekly Journey
+      - href: starbucks.qmd
+        text: Data Story Project
+        
+
+format:
+ html:
+    theme: lumen
+    css: styles.css
+    toc: true
+    page-layout: full
+    body-align: left
+
+editor: visual

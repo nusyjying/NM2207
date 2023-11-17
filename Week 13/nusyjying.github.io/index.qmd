@@ -1,0 +1,19 @@
+---
+title: "⋆｡°✩ JY's NM2207 Website ⋆｡°✩"
+---
+
+```{r, eval=TRUE,echo=FALSE,out.width="70%"}
+
+knitr::include_graphics("C:/Users/yeojy/Documents/Y2S1/NM2207/nusyjying.github.io/src/images/YAYY.jpg")
+
+```
+
+
+# Self Introduction
+
+Hello!! I'm Jing Ying, a Year 2 Sociology major who is minoring in Communications and New Media. I love travelling and trying new cafes, and I have a crazed addiction to matcha and other types of tea!! However, what I love most is creative writing. I dabble in both poetry and prose, and I love hiding messages and my worldviews in the interactions of my characters to try and deliver a nuanced portrayal of different facets of human psyches and interaction. 
+
+Welcome to my website! Here, you'll find links to my Github from my NM2207 course journey, have the option to explore my data story project with me, and browse some of my personal writing works that I wrote in the past! 
+
+![](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+

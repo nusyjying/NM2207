@@ -1,0 +1,43 @@
+---
+title: "gestaltzerfall"
+description: "Written for funsies."
+author:
+  - name: Yeo Jing Ying
+    url: https://nusyjying.github.io/
+date: 04-05-2021
+categories: [Prose] 
+image: marble.png
+draft: false 
+---
+
+```{r, eval=TRUE,echo=FALSE,out.width="70%"}
+
+knitr::include_graphics("C:/Users/yeojy/Documents/Y2S1/NM2207/nusyjying.github.io/posts/2020-04-05-gestaltzerfall/marble.png")
+
+```
+
+## gestaltzerfall
+
+Forgive me, my love, when I say that I don’t recognise who you are anymore.
+
+I have to stare at photos to commit your features into my memory, yet the more I look at you the more you become a stranger. 
+
+We’ve been through so much together and I’m supposed to treasure these moments like prized heirlooms, yet as time goes by it feels as though there’s something loose within my mind, smashing every bit of precious porcelain into little, unrecognisable shards scattered across the empty room. 
+
+I have to remind myself every morning that my past memories aren’t just delusions or simple dreams lest I disconnect from everything that I know. Are they figments of my imagination? Did I simply dream up all our encounters in a fevered daze? 
+
+Every time I flip through albums of our wonderful times together which now only exist as foggy fragments in the depths of my mind, I feel a strange sense of sentimentality that I can not justify. how dare you still touch my soul so casually, when I can barely even remember who you are to me?
+
+Even as I gaze into the mirror, the face reflected on the smooth surface does not feel like — or seem to be —mine. The features only contort, shifting further and further into obscurity, until a person I don’t know stares wordlessly back at me through the glass as if taunting me. 
+
+There seems to be an impending asteroid in the caverns of my skull, zipping and clashing against white-ochre walls and vaporising every last fragment into insignificant specks of cosmic dust. 
+
+Perhaps you are merely a figment of my imagination. A fleeting phantasm. A comrade of my mind’s own making. And our thrilling adventures, our many mishaps, and our echoing laughter are just delusions of grandeur that I indulge in my lonesome. As much as I try, I find it harder and harder every day to convince myself that you and I truly existed. 
+
+Still, I do believe that if everything was a lie and you are but a mirage, you are still the greatest creation my mind has ever brought me.
+
+...
+
+It is as if I had a dream.
+
+In the morning, the dream of the night is forgotten. The dream of the night is beautiful. However, the dream vanishes as the morning comes, leaving only an inexplicable feeling of confusion, joy and uncertainty in its wake. 
