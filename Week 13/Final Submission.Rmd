@@ -122,16 +122,20 @@ In the graph for age versus Starbucks distribution, the points cluster broadly a
 
 Interestingly, the plotted graph between “median household income” and “Starbucks per million inhabitants” shows no correlation unlike what I expected given the common perception that Starbucks is considered an ‘everyday luxury’ or ‘treat’. Hence, I conclude that the real issue is definitely more nuanced than simple “higher SES = more Starbucks patronage”.
 
-Within the international, a scatter plot was also used, this time with Country as the y-variable and 
+Within the international, a scatter plot was also used, this time with Country as the y-variable and the numbers for Starbucks outlets as the x-variable out of ease of viewing. This data set and graph was included for the user to take a step out of the US to get an idea of global distributions in comparison to other countries, and draw possible conclusions or ideas based on ideas and associations to global race distributions and stereotypes in Starbucks outlet distribution.
 
 Ultimately, the weak correlation tells me that the association between the frequency of Starbucks branches and outlets in a particular geographical location and factors such as population whiteness, age, and SES is weak. However, the observable positive correlation in the plots between “percentage of white population and Starbucks per million inhabitants” is apparent, which at least suggests that the stereotype that Starbucks leans towards a customer profile and target of satisfaction that may be prominently White does have some effect in the patronage demographics of Starbucks as well as meeting stereotyped assumptions on the target audience of Starbucks. Furthermore, my first concern was on Starbucks as a ‘white-biased’ brand, which is helpful in identifying at least some weak relationship between Starbucks, their brand and identity, and the racial profile of their customers. However, it is not a strong determining factor in deciding the frequency of distribution of Starbucks branches in a US Californa location.
 
-The exact screenshotted graphs of specific mapped variables can be found on my webpage with a similar write-up as this answer for my website visitors to view.
+The exact screenshot graphs of specific mapped variables can be found on my webpage with a similar write-up as this answer for my website visitors to view.
 
 
 ## How did you implement this entire project? Were there any new concepts that you learnt to implement some aspects of it?
 
 I planned to integrate my data project with the interactive segment of my website project, hence I had to customise my Shiny app (which its basics were covered in class) to adopt conditional displays and changes in options for users to explore the two data sets I have included with me. This customisation in how changes in the interface and available variables of interest is a new concept I had to learn and figure out to keep the interaction element in my Shiny app. 
+
+As for the personal element, I included my hobby for creative writing into the project by incorporating a blog-post display element into the webpage, with a categorised mix of old poetry and prose I wrote available for viewing. I also added some personal details in the webpage display backgrounds, as well as the different dataset logos in my Shiny app, to add further personalisation in my personal website. 
+
+*[Week 13 entry: 948 words]
 
 \newpage 
 
