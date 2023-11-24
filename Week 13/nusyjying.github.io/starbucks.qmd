@@ -2,6 +2,15 @@
 title: "ʚ♡ɞ Final Project - Starbucks ʚ♡ɞ"
 ---
 
+<style>
+  body {
+  background-image: url(https://i.pinimg.com/originals/fa/d0/24/fad024cd9459c3c241dc109eae493087.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+  
+</style>
+
 ## So... what's this about?
 
 As part of the final project of NM2207, we are to construct a data story from a data set of our own choosing. With that in mind, I've chosen to base my data story and project on a data set I've found about Starbucks branches in California!
@@ -43,3 +52,5 @@ In the graph for age versus Starbucks distribution, the points cluster broadly a
 Interestingly, the plotted graph between "median household income" and "Starbucks per million inhabitants" shows no correlation unlike what I expected given the common perception that Starbucks is considered an 'everyday luxury' or 'treat'. Hence, I conclude that the real issue is definitely more nuanced than simple "higher SES = more Starbucks patronage". 
 
 Ultimately, the weak correlation tells me that the association between the frequency of Starbucks branches and outlets in a particular geographical location and factors such as population whiteness, age, and SES is weak. However, the observable positive correlation in the plots between "percentage of white population and Starbucks per million inhabitants" is apparent, which at least suggests that the stereotype that Starbucks leans towards a customer profile and target of satisfaction that may be prominently White does have some effect in the patronage demographics of Starbucks. Furthermore, my first concern was on Starbucks as a 'white-biased' brand, which _is_ helpful in identifying at least some weak relationship between Starbucks, their brand and identity, and the racial profile of their customers. However, it is not a _determining_ factor in deciding the frequency of distribution of Starbucks branches in a US Californa location. 
+
+But what do you think? Do these graphs live up to _your_ expectations?

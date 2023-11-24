@@ -2,6 +2,16 @@
 title: "⋆｡°✩ JY's NM2207 Website ⋆｡°✩"
 ---
 
+<style>
+  body {
+  background-image: url(https://i.pinimg.com/originals/f9/d2/89/f9d289df988775503c47e2d17ce4ae4c.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+  
+</style>
+
+
 ```{r, eval=TRUE,echo=FALSE,out.width="70%"}
 
 knitr::include_graphics("C:/Users/yeojy/Documents/Y2S1/NM2207/nusyjying.github.io/src/images/YAYY.jpg")
