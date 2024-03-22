@@ -1,0 +1,12 @@
+name: StarbiesPlotApp
+title: StarbiesPlotApp
+username: nusyjying
+account: nusyjying
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10378884
+bundleId: 7881319
+url: https://nusyjying.shinyapps.io/StarbiesPlotApp/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
